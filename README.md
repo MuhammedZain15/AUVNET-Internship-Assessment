@@ -133,12 +133,6 @@ lib/
    - **Scalability**: Easy to add new features without breaking existing code
    - **Framework Independence**: Business logic is not tied to Flutter or Firebase
 
-2. **Feature-First Organization**
-
-   - **Modularity**: Each feature is self-contained with its own data, domain, and presentation layers
-   - **Team Collaboration**: Multiple developers can work on different features simultaneously
-   - **Code Reusability**: Shared components in core layer
-   - **Easier Testing**: Each feature can be tested independently
 
 3. **BLoC Pattern for State Management**
 
@@ -193,34 +187,6 @@ lib/
 - Follow Git flow branching strategy
 - Keep commits atomic and focused
 - Document major changes
-
-### Testing Strategy
-
-- Unit tests for use cases and business logic
-- Widget tests for UI components
-- Integration tests for feature workflows
-- Mock external dependencies
-
-## 🚀 Getting Started with Development
-
-1. **Understanding the Codebase**
-
-   - Start with `main.dart` to understand app initialization
-   - Review `service_locator.dart` for dependency injection setup
-   - Explore feature modules to understand the architecture
-
-2. **Adding New Features**
-
-   - Create new feature folder in `lib/feature/`
-   - Implement domain, data, and presentation layers
-   - Register dependencies in service locator
-   - Add proper error handling and testing
-
-3. **Modifying Existing Features**
-   - Follow the existing architecture patterns
-   - Update all layers consistently
-   - Maintain backward compatibility
-   - Update tests accordingly
 
 ## 📄 License
 
